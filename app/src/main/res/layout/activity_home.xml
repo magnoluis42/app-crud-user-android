@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ui.HomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:orientation="vertical">
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnAddUser"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_add_user"
+            android:textColor="@color/gray_100"
+            android:textSize="16sp"
+            app:cornerRadius="8dp"
+            app:icon="@drawable/icon_add"
+            app:iconGravity="textStart"
+            app:strokeColor="@color/gray_100"
+            app:strokeWidth="2dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnListUser"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_list_user"
+            android:textColor="@color/gray_100"
+            android:textSize="16sp"
+            app:cornerRadius="8dp"
+            app:icon="@drawable/icon_list"
+            app:iconGravity="textStart"
+            app:strokeColor="@color/gray_100"
+            app:strokeWidth="2dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnRemoveUser"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_options_user"
+            android:textColor="@color/gray_100"
+            android:textSize="16sp"
+            app:cornerRadius="8dp"
+            app:icon="@drawable/icon_delete"
+            app:iconGravity="textStart"
+            app:strokeColor="@color/gray_100"
+            app:strokeWidth="2dp" />
+
+<!--        <com.google.android.material.button.MaterialButton-->
+<!--            android:id="@+id/btnUpdateUser"-->
+<!--            style="?attr/materialButtonOutlinedStyle"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="@string/button_update_user"-->
+<!--            android:textColor="@color/gray_100"-->
+<!--            android:textSize="16sp"-->
+<!--            app:cornerRadius="8dp"-->
+<!--            app:icon="@drawable/icon_update"-->
+<!--            app:iconGravity="textStart"-->
+<!--            app:strokeColor="@color/gray_100"-->
+<!--            app:strokeWidth="2dp" />-->
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">App</string>
+    <string name="button_login">Entrar\n</string>
+    <string name="login">Faça seu Login\n</string>
+    <string name="input_email">Email</string>
+    <string name="input_password">Senha\n</string>
+    <string name="description_add_button">botão de adicionar</string>
+    <string name="button_add_person">CRIAR USUÁRIO</string>
+    <string name="button_list_person">LISTAR USUÁRIO</string>
+    <string name="button_add_user">ADICIONAR USUÁRIO</string>
+    <string name="button_list_user">LISTAR USUÁRIO</string>
+    <string name="button_remove_user">REMOVER USUÁRIO</string>
+    <string name="button_update_user">ATUALIZAR USUÁRIO</string>
+    <string name="input_name">Nome\n</string>
+    <string name="input_tel">Telefone</string>
+    <string name="text_view_null">Vázio</string>
+    <string name="item_user_name">Nome do Usuário</string>
+    <string name="item_user_email">email@exemplo.com</string>
+    <string name="item_user_telephone">(99) 99999-9999</string>
+    <string name="user_search">Digite o nome do usuário ...</string>
+    <string name="search_database">Buscar no banco...</string>
+    <string name="button_options_user">OPÇÕES DE USUÁRIO</string>
+</resources>
